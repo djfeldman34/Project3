@@ -1,0 +1,94 @@
+<html>
+    <head>    
+            <meta charset="UTF-8">
+            <title>Index</title>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="static/css/style.css">            
+    </head>
+
+    <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="/">Teaching Computers to Feel:  Advanced Sentiment Analysis</a>
+                          <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                            <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+                                            </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Background
+                                    </a>
+                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="zipf">Zipf</a>
+                                      <a class="dropdown-item" href="mission">Mission</a>
+                                              <a class="dropdown-item" href="data">Data</a>
+                                      <div class="dropdown-divider"></div>
+                                    </div>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Visuals
+                                    </a>
+                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="visual1">Zipf Visual</a>
+                                              <a class="dropdown-item" href="models">Models</a>
+                                      <div class="dropdown-divider"></div>
+                                    </div>
+                                  </li>
+                                  <li class="nav-item active">
+                                    <a class="nav-link" href="test">Test<span class="sr-only">(current)</span></a>
+                                  </li>
+                                  <li class="nav-item active">
+                                        <a class="nav-link" href="about">About<span class="sr-only">(current)</span></a>
+                                      </li>
+                                </ul>
+                              </div>
+                </nav>
+                <div id="container">
+                    <div class="row">
+                      <div class="col-1"></div>
+                            <div class="col-6">
+                                <div class="jumbotron">
+                                <h1 class="display-5">Data</h1>
+                                <hr class="my-5">
+                                <img src = "../static/images/data1.png" alt = "Data" height=150 width=500>
+                                    <p>We acquired our training and test data from Kaggle and our pre-sorted word list from UIC.edu
+                                    <br> <br>
+                                      Our training and test data was hotel reviews from Datafiniti with 1-5 star ratings
+                                    </p>
+                                <hr class="my-5">
+                                <h1 class="display-5">Bag of Words</h1>
+                                <img src = "../static/images/wordbag.jpg" alt = "Bag of Words">
+                                    <p>To preprocess the data, we tokenized the words of every review document.
+                                        <br> <br>
+                                          We then had an array containing the frequency of each word, and each word in the corpus was assigned a numerical value
+                                          <br>
+                                          This allowed us to then use the data in our subsequent algorithms
+                                        </p>
+                                <hr class="my-5">
+                                <h1 class="display-5">Sentiment Pre-Processing</h1>
+                                    <p>Most text sentiment analyzers are set to find only if a text is positive or negative.
+                                        <br>
+                                        We went a step further.
+                                        <br> <br>
+                                          We used three potential classifications for our data:  Positive, Negative, and Neutral.
+                                          <br>
+                                          This added a layer of complexity, but even still, we wanted to narrow the 5 star ratings into 3 categories.
+                                          <br>
+                                          To do this, we made ratings less than or equal to 2 stars negative,
+                                          <br>
+                                          ratings greater than 2 and less than 4 as neutral,
+                                          <br>
+                                          and ratings greater than or equal to 4 as positive.
+                            <div class="col">
+                    </div>
+                </div>
+                    </div>
+                </div>
+    </body>
+</html>
