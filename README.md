@@ -17,10 +17,14 @@ Given a sufficiently large set of text, we are unable to determine the sentiment
 2.  Database of movie/business reviews
 3.  Flask App to access database, and JS/HTML representation
 ## Milestones
-### Mung Data
-### Setup Database
-### Build Machine Learning Models
-### Build Front-End Application
+### I.  Mung Data
+Getting datasets through Kaggle. Formatting datasets so that they can be saved as .bson format. 
+### II.  Setup Database
+Setting up multiple collections through PyMongo. Broke the dataset up by review types such as hotel review and business reviews through Yelp and Datafiniti. Breaking it down by a Review ID, User ID, Business ID, Stars, useful or helpful Upvotes by other users, funny count determined by other users, cool factor determined by other users and then the text of the actual review itself
+### III.  Build Machine Learning Models
+Use the data sets and SKLEARN to train a model that will be able to determine which sentences lend themselves to positive or negative connotations.  We will use supervised learning by using the review text as the input and whether the review is high (i.e. 5 stars) or low (i.e. 1 star) as the goal.
+### IV.  Build Front-End Application
+Develop Flask App to access the data and visualizations.  User access to input where sentiment analysis can be used.  Create an interactive and fun experience that entices the user to explore our product.
 ## Constraints
 
 # Conclusions
