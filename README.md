@@ -26,5 +26,12 @@ Use the data sets and SKLEARN to train a model that will be able to determine wh
 ### IV.  Build Front-End Application
 Develop Flask App to access the data and visualizations.  User access to input where sentiment analysis can be used.  Create an interactive and fun experience that entices the user to explore our product.
 ## Constraints
-
+Potential roadblocks our product could run into include:
+<ul>
+  <li>Fake reviews</li>
+  <li>Sarcastic reviews</li>
+  <li>Invalid reviews such as a typo or unfinished reviews</li>
+  <li>Subtle underlying messages within a review</li>
+  <li>The authenticity of a review</li>
+</ul>
 # Conclusions
