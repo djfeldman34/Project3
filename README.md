@@ -40,4 +40,6 @@ After using several different models, we concluded that the best model for this 
 
 The most important part of the functionality of the Neural Network model is the fact that it lowers the type I and type II errors more than any other of the models.
 
+# Project Status
 The functionality of the live application testing of input text is still under development.
+We are still working on converting the visualizations into a useful market prediction tool.
