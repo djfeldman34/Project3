@@ -42,4 +42,5 @@ The most important part of the functionality of the Neural Network model is the 
 
 # Project Status
 The functionality of the live application testing of input text is still under development.
+
 We are still working on converting the visualizations into a useful market prediction tool.
