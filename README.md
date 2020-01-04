@@ -25,6 +25,9 @@ Setting up multiple collections through PyMongo. Broke the dataset up by review 
 Use the data sets and SKLEARN to train a model that will be able to determine which sentences lend themselves to positive or negative connotations.  We will use supervised learning by using the review text as the input and whether the review is high (i.e. 5 stars) or low (i.e. 1 star) as the goal.
 ### IV.  Build Front-End Application
 Develop Flask App to access the data and visualizations.  User access to input where sentiment analysis can be used.  Create an interactive and fun experience that entices the user to explore our product.
+
+<img src="/Website/static/images/int1.JPG">
+
 ## Constraints
 Potential roadblocks our product could run into include:
 <ul>
