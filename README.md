@@ -40,6 +40,8 @@ After using several different models, we concluded that the best model for this 
 
 The most important part of the functionality of the Neural Network model is the fact that it lowers the type I and type II errors more than any other of the models.
 
+In regards to Zipf's law, we learned that we could not improve upon the current methods of Term Frequeuncy and Inverse Document Frequency, which effectively do the work of finding words that fall high on the Zipf distribution and remove them for us.
+
 ### Non-Machine-Learning Classifier Results:
 
 <img src="/Website/static/images/NML2.JPG">
