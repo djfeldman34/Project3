@@ -40,6 +40,11 @@ After using several different models, we concluded that the best model for this 
 
 The most important part of the functionality of the Neural Network model is the fact that it lowers the type I and type II errors more than any other of the models.
 
+### Non-Machine-Learning Classifier Results
+
+
+
+### Neural Network Results
 <img src="/Website/static/images/NNF1.PNG">
 
 # Project Status
