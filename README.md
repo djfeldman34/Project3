@@ -39,6 +39,7 @@ Potential roadblocks our product could run into include:
 After using several different models, we concluded that the best model for this type of task is a Neural Network model.  We were able to acheive a 79% accuracy rate with this model.  This result needs to be taken with a grain of salt because the data itself is skewed and not equally distributed (i.e. the dataset contains 72.7% positive reviews).  
 
 The most important part of the functionality of the Neural Network model is the fact that it lowers the type I and type II errors more than any other of the models.
+<img src="/djfeldman34/Text-Sentiment-Analysis/website/f1.png">
 
 # Project Status
 The functionality of the live application testing of input text is still under development.
