@@ -42,14 +42,14 @@ The most important part of the functionality of the Neural Network model is the 
 
 ### Non-Machine-Learning Classifier Results
 
-<img src="/Website/static/images/NML1.PNG">
+<img src="/Website/static/images/NML1.JPG">
 
-<img src="/Website/static/images/NML2.PNG">
+<img src="/Website/static/images/NML2.JPG">
 
 ### Neural Network Results
 <img src="/Website/static/images/NNF1.PNG">
 
-<img src="/Website/static/images/NN3.PNG">
+<img src="/Website/static/images/NN3.JPG">
 
 # Project Status
 The functionality of the live application testing of input text is still under development.
