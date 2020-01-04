@@ -42,8 +42,6 @@ The most important part of the functionality of the Neural Network model is the 
 
 ### Non-Machine-Learning Classifier Results
 
-<img src="/Website/static/images/NML1.JPG">
-
 <img src="/Website/static/images/NML2.JPG">
 
 ### Neural Network Results
