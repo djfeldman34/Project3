@@ -18,7 +18,7 @@ Given a sufficiently large set of text, we are unable to determine the sentiment
 3.  Flask App to access database, and JS/HTML representation
 ## Milestones
 ### I.  Mung Data
-Getting datasets through Kaggle. Formatting datasets so that they can be saved as .bson format. 
+Getting datasets through Kaggle. Formatting datasets so that they can be saved in a NOSQL Database (MongoDB). 
 ### II.  Setup Database
 Setting up multiple collections through PyMongo. Broke the dataset up by review types such as hotel review and business reviews through Yelp and Datafiniti. Breaking it down by a Review ID, User ID, Business ID, Stars, useful or helpful Upvotes by other users, funny count determined by other users, cool factor determined by other users and then the text of the actual review itself
 ### III.  Build Machine Learning Models
